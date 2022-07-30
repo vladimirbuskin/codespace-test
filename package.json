@@ -1,0 +1,28 @@
+{
+  "name": "permit2api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "ava"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "http-proxy": "^1.18.1",
+    "knex": "^2.1.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-connect": "^2.1.0",
+    "markdown": "^0.5.0",
+    "node-phpfpm": "^1.0.1",
+    "oauth2orize": "^1.11.1",
+    "tedious": "^14.7.0"
+  },
+  "devDependencies": {
+    "ava": "^4.3.1"
+  }
+}
